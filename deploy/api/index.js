@@ -25,7 +25,7 @@ require("./routes/utilisateur.routes")(app);
 
 
 // set port, listen for requests
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 443;
 const url = process.env.URL || 'http://localhost';
 app.listen(port, () => {
   console.log(`Server is running on ${url}:${port}.`);
